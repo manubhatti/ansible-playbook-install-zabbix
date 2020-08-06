@@ -10,3 +10,8 @@
       yum:
         name: zabbix-agent
         state: latest
+    - name: start the zabbix-agent
+      service:
+        name: zabbix-agent
+        state: started
+        enabled: yes
