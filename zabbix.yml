@@ -15,7 +15,7 @@
         name: zabbix-agent
         state: started
 
-    - name: start the zabbix-agent
+    - name: enable the zabbix-agent
       service:
         name: zabbix-agent
         enabled: yes
